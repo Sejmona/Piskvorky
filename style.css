@@ -70,4 +70,15 @@ p1 {
   display: flex;
   flex-basis: 300px;
   padding: 20px;
+  justify-content: center;
+  justify-items: center;
+  background-color: #0197f6;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.zacithrat:hover {
+  background-color: #0090e9;
 }
