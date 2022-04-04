@@ -214,7 +214,7 @@ p1 {
   margin: auto;
 }
 @media (min-widht: 800px) {
-  .text {
+  .text co {
     width: 500px;
   }
   .text2 {
