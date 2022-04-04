@@ -82,3 +82,134 @@ p1 {
 .zacithrat:hover {
   background-color: #0090e9;
 }
+.sectionpravidla {
+  background-color: #283e50;
+  padding: 0 10px 10px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.kolecko {
+  width: 1em;
+  height: 1em;
+  filter: invert(100%);
+}
+.krizek {
+  width: 1em;
+  height: 1em;
+  filter: invert(100%);
+}
+.instrukce1 {
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.text2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+.instrukce2 {
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.text3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+.instrukce3 {
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.text4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+.instrukce4 {
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.text5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+.instrukce5 {
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.text6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+.instrukce6 {
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.text7 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+.uvodnistranka {
+  display: flex;
+  flex-basis: 300px;
+  padding: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  justify-items: center;
+  background-color: #1fcca4;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.uvodnistranka:hover {
+  background-color: #1cbb96;
+}
+@media (min-widht: 700px) {
+  .sectionpravidla {
+    width: 800px;
+  }
+  .text2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  figure {
+    width: 40%;
+  }
+}
