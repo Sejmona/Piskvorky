@@ -112,7 +112,7 @@ p1 {
   margin-bottom: 10px;
   text-align: center;
 }
-.text2 {
+.foto-instrukce {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: white;
@@ -127,13 +127,7 @@ p1 {
   margin-bottom: 10px;
   text-align: center;
 }
-.text3 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  font-style: italic;
-}
+
 .instrukce3 {
   width: 390px;
   margin-left: 10px;
@@ -141,13 +135,7 @@ p1 {
   margin-bottom: 10px;
   text-align: center;
 }
-.text4 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  font-style: italic;
-}
+
 .instrukce4 {
   width: 390px;
   margin-left: 10px;
@@ -155,13 +143,7 @@ p1 {
   margin-bottom: 10px;
   text-align: center;
 }
-.text5 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  font-style: italic;
-}
+
 .instrukce5 {
   width: 390px;
   margin-left: 10px;
@@ -169,13 +151,7 @@ p1 {
   margin-bottom: 10px;
   text-align: center;
 }
-.text6 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  font-style: italic;
-}
+
 .instrukce6 {
   width: 390px;
   margin-left: 10px;
@@ -183,13 +159,7 @@ p1 {
   margin-bottom: 10px;
   text-align: center;
 }
-.text7 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  font-style: italic;
-}
+
 .uvodnistranka {
   display: flex;
   flex-basis: 300px;
@@ -207,22 +177,20 @@ p1 {
 .uvodnistranka:hover {
   background-color: #1cbb96;
 }
-
+img {
+  max-width: 100%;
+}
 .figure {
   max-width: 100%;
   padding: 4px;
   margin: auto;
 }
-@media (min-widht: 800px) {
-  .text co {
-    width: 500px;
-  }
-  .text2 {
+@media (min-width: 800px) {
+  .vsechny-instrukce {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
   }
-  figure {
-    max-width: 40%;
+  .foto-instrukce {
+    width: 50%;
   }
 }
