@@ -4,7 +4,7 @@
 body {
   background-image: linear-gradient(to bottom, #615dad, #ffc8da);
   color: #ffffff;
-  min-height: 100vh;
+  height: 100%;
 }
 
 h1 {
@@ -107,8 +107,8 @@ p1 {
 }
 .instrukce1 {
   width: 390px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  margin-right: 30px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -117,11 +117,13 @@ p1 {
   font-size: 16px;
   color: white;
   text-align: center;
+  width: 100%;
+  font-style: italic;
 }
 .instrukce2 {
   width: 390px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  margin-right: 20px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -130,11 +132,12 @@ p1 {
   font-size: 16px;
   color: white;
   text-align: center;
+  font-style: italic;
 }
 .instrukce3 {
   width: 390px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  margin-right: 20px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -143,11 +146,12 @@ p1 {
   font-size: 16px;
   color: white;
   text-align: center;
+  font-style: italic;
 }
 .instrukce4 {
   width: 390px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  margin-right: 20px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -156,11 +160,12 @@ p1 {
   font-size: 16px;
   color: white;
   text-align: center;
+  font-style: italic;
 }
 .instrukce5 {
   width: 390px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  margin-right: 20px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -169,11 +174,12 @@ p1 {
   font-size: 16px;
   color: white;
   text-align: center;
+  font-style: italic;
 }
 .instrukce6 {
   width: 390px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  margin-right: 20px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -182,6 +188,7 @@ p1 {
   font-size: 16px;
   color: white;
   text-align: center;
+  font-style: italic;
 }
 .uvodnistranka {
   display: flex;
@@ -200,9 +207,15 @@ p1 {
 .uvodnistranka:hover {
   background-color: #1cbb96;
 }
-@media (min-widht: 700px) {
-  .sectionpravidla {
-    width: 800px;
+
+.figure {
+  max-width: 100%;
+  padding: 4px;
+  margin: auto;
+}
+@media (min-widht: 800px) {
+  .text {
+    width: 500px;
   }
   .text2 {
     display: flex;
@@ -210,6 +223,6 @@ p1 {
     justify-content: space-between;
   }
   figure {
-    width: 40%;
+    max-width: 40%;
   }
 }
