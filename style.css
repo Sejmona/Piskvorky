@@ -85,9 +85,10 @@ p1 {
 .sectionpravidla {
   background-color: #283e50;
   padding: 0 10px 10px;
-  width: 500px;
+  width: 600px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .text {
@@ -179,6 +180,7 @@ p1 {
 }
 img {
   max-width: 100%;
+  border-radius: 10px 10px 10px 10px;
 }
 .figure {
   max-width: 100%;
