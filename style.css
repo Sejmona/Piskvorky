@@ -196,3 +196,68 @@ img {
     width: 50%;
   }
 }
+
+.hra {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 80vmin;
+}
+.policka-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hraje {
+  font-size: 40px;
+}
+.kontrolky {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-block;
+  margin-bottom: 10px;
+  position: relative;
+  max-width: 60vmin;
+}
+.tlacitko {
+  filter: invert(100%);
+  height: 30px;
+  width: 30px;
+}
+.domecek,
+.restart {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 265px;
+}
+.domecek {
+  background-color: #1fcca4;
+  border-radius: 5px 5px 5px 5px;
+  padding: 5px;
+}
+.domecek:hover,
+:focus {
+  background-color: #1cbb96;
+}
+.restart {
+  background-color: #0197f6;
+  border-radius: 5px 5px 5px 5px;
+  padding: 5px;
+  margin-left: 10px;
+}
+.restart:hover,
+:focus {
+  background-color: #0090e9;
+}
+
+button {
+  border: 1px solid black;
+  background-color: rgba(220, 200, 220, 0.4);
+  width: 10%;
+  aspect-ratio: 1 / 1;
+}
+button:hover,
+button:focus {
+  background-color: rgba(242, 122, 242, 0.4);
+}
