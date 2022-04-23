@@ -261,3 +261,19 @@ button:hover,
 button:focus {
   background-color: rgba(242, 122, 242, 0.4);
 }
+
+button {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1px;
+}
+.board__field--circle {
+  background-image: url('circle.svg');
+  background-size: 34px;
+  transition: background-size 0.2s;
+}
+.board__field--cross {
+  background-image: url('cross.svg');
+  background-size: 34px;
+  transition: background-size 0.2s;
+}
