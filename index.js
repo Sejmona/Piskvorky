@@ -105,16 +105,16 @@ const isWinningMove = (field) => {
 let tvojeHra = 'circle';
 const turn = document.querySelector('.kontrolky');
 const move = (event) => {
-  if (turn === 'circle') {
+  if (tvojeHra === 'circle') {
     event.target.disabled = true;
     event.target.classList.add('board__field--circle');
-    turn = 'cross';
-    turn.src = 'images/cross.svg';
+    tvojeHra = 'cross';
+    turn.src = 'img/cross.svg';
   } else {
     event.target.disabled = true;
-    turn = 'circle';
+    tvojeHra = 'circle';
     event.target.classList.add('board__field--cross');
-    turn.src = 'images/circle.svg';
+    turn.src = 'img/circle.svg';
   }
   const winningPlayer = isWinningMove(event.target);
   if (winningPlayer) {
