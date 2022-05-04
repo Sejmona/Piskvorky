@@ -96,7 +96,7 @@ const isWinningMove = (field) => {
   }
 
   if (inColumn >= symbolsToWin) {
-    return true && setTimeout(popup, 500);
+    return true;
   }
 
   return false;
